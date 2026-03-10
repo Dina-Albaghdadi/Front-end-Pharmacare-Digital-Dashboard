@@ -28,10 +28,10 @@ Omeprazole 20mg,
 Atorvastatin 10mg,
 Salbutamol Inhaler,
 Aspirin 81mg,
-Loratadine 10mg.
-Lisinopril 10mg
-Insulin Glargine
-Multivitamin Adult
-Simvastatin 20mg
+Loratadine 10mg,
+Lisinopril 10mg,
+Insulin Glargine,
+Multivitamin Adult,
+Simvastatin 20mg.
 Naproxen 500mg
-Levothyroxine 50mcg
+Levothyroxine 50,mcg
