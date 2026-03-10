@@ -17,18 +17,18 @@ Visual Logic/Status Indicators:
 Data Handling: All medicine information is hard-coded directly into the HTML files as required in the project.
 
 List of Included Medicines "18 medicines":
-Amoxicillin 250mg
-Vitamin C 100mg
-Ibuprofen 400mg
-Cetirizine 10mg
-Metformin 500mg
-Paracetamol 500mg
-Azithromycin 500mg
-Omeprazole 20mg
-Atorvastatin 10mg
-Salbutamol Inhaler
-Aspirin 81mg
-Loratadine 10mg
+Amoxicillin 250mg,
+Vitamin C 100mg,
+Ibuprofen 400mg,
+Cetirizine 10mg,
+Metformin 500mg,
+Paracetamol 500mg,
+Azithromycin 500mg,
+Omeprazole 20mg,
+Atorvastatin 10mg,
+Salbutamol Inhaler,
+Aspirin 81mg,
+Loratadine 10mg.
 Lisinopril 10mg
 Insulin Glargine
 Multivitamin Adult
