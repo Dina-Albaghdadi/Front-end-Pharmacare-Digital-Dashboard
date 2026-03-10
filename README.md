@@ -32,6 +32,6 @@ Loratadine 10mg,
 Lisinopril 10mg,
 Insulin Glargine,
 Multivitamin Adult,
-Simvastatin 20mg.
-Naproxen 500mg
-Levothyroxine 50,mcg
+Simvastatin 20mg,
+Naproxen 500mg,
+Levothyroxine 50mcg.
