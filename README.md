@@ -11,9 +11,9 @@ Responsiveness: The design is responsive, utilizing media queries to ensure the 
 Code Organization: Styling is managed through a separate style.css file. The HTML structure uses semantic tags such as <header>, <nav>, <main>, and <footer> for better accessibility and organization.
 Color Scheme: I chose a professional medical palette, featuring deep blues for navigation, clean whites for backgrounds, and greens/reds for status indicators.
 Visual Logic/Status Indicators:
-Green: Indicates items that are "In Stock".✅
-Red: Indicates items that are "Out of Stock". ❌
-⚠️Highlighted: Expired medicines on the Expiry Tracker page feature a dashed red border and strikethrough text to provide an immediate visual alert.
+✅: Indicates items that are "In Stock",
+❌: Indicates items that are "Out of Stock",
+⚠️: Expired medicines on the Expiry Tracker page feature a dashed red border and strikethrough text to provide an immediate visual alert.
 Data Handling: All medicine information is hard-coded directly into the HTML files as required in the project.
 
 List of Included Medicines "18 medicines":
