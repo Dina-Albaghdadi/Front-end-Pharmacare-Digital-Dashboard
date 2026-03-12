@@ -1,0 +1,124 @@
+/* 1. Global Styles & Typography  */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif; /* Clear, readable fonts */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f9fc; /* Clean medical white/blue background */
+    color: #333;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 3px solid #0056b3;
+}
+
+h1, h2, h3 {
+    color: #0056b3; /* Professional medical blue */
+}
+
+/* 2. Navigation Menu  */
+nav {
+    background-color: #0056b3;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #a0d2eb;
+}
+
+/* 3. CSS Grid Layout  */
+.card-container {
+    display: grid;
+    gap: 20px;
+    padding: 40px;
+    /* Responsive logic: 1 column for mobile by default */
+    grid-template-columns: 1fr; 
+}
+
+/* 4. Responsive Media Queries  */
+/* Tablet Screen */
+@media (min-width: 600px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop Screen */
+@media (min-width: 1000px) {
+    .card-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* 5. Card Components  */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    border: 1px solid #e1e8ed;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* 6. Status Indicators  */
+
+/* Green = In Stock */
+.in-stock, .status-in-stock, .summary-green {
+    border-top: 8px solid #28a745;
+    background-color: #f0fff4;
+}
+
+/* Red = Out of Stock */
+.out-of-stock, .status-out-of-stock, .summary-red {
+    border-top: 8px solid #dc3545;
+    background-color: #fff5f5;
+}
+
+/* Highlighted = Expired Medicine  */
+.expired-highlight {
+    border: 3px solid #dc3545; /* Highlighted border */
+    background-color: #fff5f5;
+    color: #721c24; /* Distinct red text */
+}
+
+/* Visual requirement: Strikethrough for expired medicine names  */
+.expired-highlight h4 {
+    text-decoration: line-through;
+    color: #dc3545;
+}
+
+/* Home Page Summary blue card */
+.summary-blue {
+    border-top: 8px solid #0056b3;
+}
+
+/* 7. Footer  */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #e1e8ed;
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 40px;
+}
