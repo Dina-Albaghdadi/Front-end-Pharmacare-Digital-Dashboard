@@ -3,7 +3,7 @@ Brief project description:
 dashboard prototype designed for Al-Rasheed Pharmacy. The system addresses operational challenges by providing staff with a centralized, visual system to monitor medicine availability and identify expired stock at a glance. The website is a fully static, multi-page prototype built exclusively using HTML5 and CSS3.
 
 How to Open the Website:
-To view the prototype, navigate to the project folder and open index.html in any modern web browser (Chrome, Firefox, etc..). This file serves as the homepage and main entry point for the site. Start with index.HTML file after that you can navigate between the three pages using the icons labeled, Inventory, Expiry Tracker, or Home.
+To view the prototype, navigate to the project folder and open index.html in any modern web browser (Chrome, Firefox, etc..). This file serves as the homepage and main entry point for the site. Start with index.html file after that you can navigate between the three pages using the icons labeled, Inventory, Expiry Tracker, or Home.
 
 Design Choices:
 Layout Technique: I used CSS Grid to structure the layout, specifically for the medicine card containers and the overall page rows (header, main, footer).
