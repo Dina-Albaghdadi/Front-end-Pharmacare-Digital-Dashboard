@@ -1,37 +1,51 @@
-# Front-end-Pharmacare-Digital-Dashboard
-Brief project description:
-dashboard prototype designed for Al-Rasheed Pharmacy. The system addresses operational challenges by providing staff with a centralized, visual system to monitor medicine availability and identify expired stock at a glance. The website is a fully static, multi-page prototype built exclusively using HTML5 and CSS3.
+# 💊 PharmaCare Connect: Pharmacy Dashboard Prototype
 
-How to Open the Website:
-To view the prototype, navigate to the project folder and open index.html in any modern web browser (Chrome, Firefox, etc..). This file serves as the homepage and main entry point for the site. Start with index.html file after that you can navigate between the three pages using the icons labeled, Inventory, Expiry Tracker, or Home.
+# 🌟 Project Overview
+* **PharmaCare Connect** is a professional front-end dashboard prototype developed as a digital solution for **Al-Rasheed Pharmacy**.
+* Built exclusively with **HTML5** and **CSS3**, this system serves as a visual "command center" to modernize pharmacy operations and enhance patient safety without the need for a complex backend or functional database.
+  
+# 📸 Project Preview
+* **1. Home Page Dashboard**
+![The Dashboard Home](Project%20Preview/1.The%20Dashboard%20Home.png)
+*Features the brand identity, professional tagline, and summary cards.*
 
-Design Choices:
-Layout Technique: I used CSS Grid to structure the layout, specifically for the medicine card containers and the overall page rows (header, main, footer).
-Responsiveness: The design is responsive, utilizing media queries to ensure the interface adjusts seamlessly for mobile, tablet, and desktop screens.
-Code Organization: Styling is managed through a separate style.css file. The HTML structure uses semantic tags such as <header>, <nav>, <main>, and <footer> for better accessibility and organization.
-Color Scheme: I chose a professional medical palette, featuring deep blues for navigation, clean whites for backgrounds, and greens/reds for status indicators.
-Visual Logic/Status Indicators:
-✅: Indicates items that are "In Stock",
-❌: Indicates items that are "Out of Stock",
-⚠️: Expired medicines on the Expiry Tracker page feature a dashed red border and strikethrough text to provide an immediate visual alert.
-Data Handling: All medicine information is hard-coded directly into the HTML files as required in the project.
+* **2. Medicine Inventory View**
+![The Medicine Inventory](Project%20Preview/2.The%20Medicine%20Inventory.png)
+*Demonstrates the card-based layout with CSS status indicators.*
 
-List of Included Medicines "18 medicines":
-Amoxicillin 250mg,
-Vitamin C 100mg,
-Ibuprofen 400mg,
-Cetirizine 10mg,
-Metformin 500mg,
-Paracetamol 500mg,
-Azithromycin 500mg,
-Omeprazole 20mg,
-Atorvastatin 10mg,
-Salbutamol Inhaler,
-Aspirin 81mg,
-Loratadine 10mg,
-Lisinopril 10mg,
-Insulin Glargine,
-Multivitamin Adult,
-Simvastatin 20mg,
-Naproxen 500mg,
-Levothyroxine 50mcg.
+* **3. Expired Medicines Alert**
+![The Expiry Alert Tracker](Project%20Preview/3.The%20Expiry%20Alert%20Tracker.png)
+*Showcases the safety tracker using visual alerts for removal.*
+# ⚡ The Challenge
+* Dr. Kamel, the owner of Al-Rasheed Pharmacy, faced significant operational hurdles that impacted efficiency and safety:
+    * **Manual Inefficiency**: Staff spent excessive time manually checking shelves to confirm medicine availability.
+    * **Safety Risks**: Expired medicines occasionally remained on shelves unnoticed, leading to potential health risks and financial loss.
+    * **Lack of Visibility**: There was no centralized way to determine stock status (In Stock vs. Out of Stock) or upcoming expiry dates at a glance.
+
+# 🎯 The Solution
+* This prototype solves these challenges by providing a centralized, visual system that replaces manual shelf-checking with digital visibility.
+* It uses high-level styling and a **CSS Grid structure** to ensure pharmacy staff can manage their inventory effectively from any device.
+
+# 🚀 Key Features
+* **🏠 Professional Landing Page**: Features the pharmacy brand "PharmaCare," the official tagline ("Your Health, Our Commitment"), and an overview of professional healthcare services.
+* **📊 Interactive Dashboard**: Includes high-visibility summary cards showing total stock (18 items), expired counts (6 items), and out-of-stock counts (6 items).
+* **📦 Comprehensive Inventory**: A structured list of 18 medicines hard-coded into the HTML. It uses CSS status indicators for instant tracking:
+    * ✅ **Green Background**: Items currently "In Stock".
+    * ❌ **Red Background**: Items currently "Out of Stock".
+* **⚠️ Expiry Alert System**: A dedicated tracker page focusing exclusively on expired medicines. It uses distinct visual logic, including strikethrough text (`<strike>`) and red highlighted borders, to alert staff to items that must be removed immediately.
+* **👥 Staff Directory**: A professional interface to manage the pharmacy's team of four employees, ensuring clear internal organization.
+
+# 🛠️ Technical Specifications
+* **Pure Front-End**: Built with 100% HTML5 and CSS3; no JavaScript, frameworks, or backend processing is used.
+* **Modern Layout**: Structured using **CSS Grid** to ensure a clean, organized, and professional multi-page layout.
+* **📱 Responsive Design**: Optimized to look and function perfectly on mobile, tablet, and desktop screens.
+* **📑 Clean Code Standards**: Employs semantic HTML5 tags (like `<nav>`, `<header>`, and `<section>`) and a separate `style.css` file for professional performance.
+
+# 💎 Impact
+* By providing at-a-glance visibility, this project empowers Dr. Kamel and his staff to manage their inventory more efficiently.
+* This reduces financial waste and, most importantly, ensures that only safe, valid medications reach the community, fulfilling the pharmacy's commitment to patient safety.
+
+# 📖 How to View
+* ⬇️ **Clone or Download**: Save a copy of the repository to your local machine.
+* 📁 **Folder Organization**: Ensure all HTML files and `style.css` remain in the root folder, and all images are placed inside the **Interface** directory.
+* 🌐 **Run**: Open `index.html` in any modern web browser to view the project.
