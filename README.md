@@ -35,4 +35,17 @@
 * **⚠️ Expiry Alert System**: A dedicated tracker page focusing exclusively on expired medicines. It uses distinct visual logic, including strikethrough text (`<strike>`) and red highlighted borders, to alert staff to items that must be removed immediately.
 * **👥 Staff Directory**: A professional interface to manage the pharmacy's team of four employees, ensuring clear internal organization.
 
+# 🛠️ Technical Specifications
+* **Pure Front-End**: Built with 100% HTML5 and CSS3; no JavaScript, frameworks, or backend processing is used.
+* **Modern Layout**: Structured using **CSS Grid** to ensure a clean, organized, and professional multi-page layout.
+* **📱 Responsive Design**: Optimized to look and function perfectly on mobile, tablet, and desktop screens.
+* **📑 Clean Code Standards**: Employs semantic HTML5 tags (like `<nav>`, `<header>`, and `<section>`) and a separate `style.css` file for professional performance.
 
+# 💎 Impact
+* By providing at-a-glance visibility, this project empowers Dr. Kamel and his staff to manage their inventory more efficiently.
+* This reduces financial waste and, most importantly, ensures that only safe, valid medications reach the community, fulfilling the pharmacy's commitment to patient safety.
+
+# 📖 How to View
+* ⬇️ **Download**: Save a copy of the repository to your local machine.
+* 📁 **Folder Organization**: Ensure all HTML files and `style.css` remain in the root folder, and all images are placed inside the **Interface** directory.
+* 🌐 **Run**: Open `Index.html` in any modern web browser to view the project.
